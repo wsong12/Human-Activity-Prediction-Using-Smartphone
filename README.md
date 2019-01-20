@@ -17,9 +17,11 @@ IV. Classification Methods
 In this report, I use two classification methods to predict the labels. And for each classification, I use original dataset and reconstructed dataset separately and compare the accuracies between them. And I also adjust parameters for each of the classification and see the changes of accuracies.
 
 A.Bayes Classification
+
 Bayes classifier is a probabilistic classifier based on applying Bayes’ theorem with strong independence assumption between the features. In our dataset, I applied Bayes classification for original dataset and constructed dataset. I built Bayes classification by scratch in Matlab.
 
 B.SVM
+
 Support vector machines are supervised learning models that analyze data used for classification. I use SVM for original data and dimension-reduced dataset and analyze the accuracies using two different hyper-parameter values.
 
 
